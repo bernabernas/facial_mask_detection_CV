@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# Virtual environment
+rede_neural_vc.venv/
+venv/
+env/
+ENV/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs / temp
+*.log
+tmp/
+temp/
+
+# Ultralytics / training outputs
+runs/
+weights/
+results/
+*.pt
+*.onnx
+*.yaml
+
+# Optional: ignore local dataset caches or large downloaded data
+# datasets/
